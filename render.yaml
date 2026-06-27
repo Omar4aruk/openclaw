@@ -3,7 +3,7 @@ services:
     name: openclaw
     runtime: image
     image:
-      url: openclaw/openclaw:latest
+      url: ghcr.io/openclaw/openclaw:latest
     plan: free
     envVars:
       - key: OPENCLAW_GATEWAY_PORT
