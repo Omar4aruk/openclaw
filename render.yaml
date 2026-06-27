@@ -9,8 +9,8 @@ services:
       - key: OPENCLAW_GATEWAY_PORT
         value: 8080
       - key: OPENCLAW_STATE_DIR
-        value: /opt/openclaw/.openclaw
+        value: /tmp/.openclaw
       - key: OPENCLAW_WORKSPACE_DIR
-        value: /opt/openclaw/workspace
+        value: /tmp/workspace
       - key: OPENCLAW_DATABASE_URL
         sync: false
